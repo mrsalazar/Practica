@@ -1,0 +1,70 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+nav.navbar-bitworldnav2 { background: black; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
+nav.navbar-bitworldnav2 a { color: white; }
+nav.navbar-bitworldnav2 ul.navbar-nav a { color: white; border-style: solid; border-width: 0 0 2px 0; border-color: black; }
+nav.navbar-bitworldnav2 ul.navbar-nav a:hover,
+nav.navbar-bitworldnav2 ul.navbar-nav a:visited,
+nav.navbar-bitworldnav2 ul.navbar-nav a:focus,
+nav.navbar-bitworldnav2 ul.navbar-nav a:active { background: black; }
+nav.navbar-bitworldnav2 ul.navbar-nav a:hover { border-color: #f14444; }
+nav.navbar-bitworldnav2 li.divider { background: #ccc; }
+nav.navbar-bitworldnav2 button.navbar-toggle { background: white; border-radius: 2px; }
+nav.navbar-bitworldnav2 button.navbar-toggle:hover { background: #999; }
+nav.navbar-bitworldnav2 button.navbar-toggle > span.icon-bar { background: black; }
+nav.navbar-bitworldnav2 ul.dropdown-menu { border: 0; background: black; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-bitworldnav2 ul.dropdown-menu > li > a { color: white; }
+nav.navbar-bitworldnav2 ul.dropdown-menu > li > a:hover { background: #f14444; color: white; }
+nav.navbar-bitworldnav2 span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-bitworldnav2 span.badge.new { background: rgba(255, 0, 0, 0.8); color: black; }
+
+nav.navbar-bitworldnav { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
+nav.navbar-bitworldnav a { color: #f14444; }
+nav.navbar-bitworldnav ul.navbar-nav a { color: #f14444; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
+nav.navbar-bitworldnav ul.navbar-nav a:hover,
+nav.navbar-bitworldnav ul.navbar-nav a:visited,
+nav.navbar-bitworldnav ul.navbar-nav a:focus,
+nav.navbar-bitworldnav ul.navbar-nav a:active { background: #fff; }
+nav.navbar-bitworldnav ul.navbar-nav a:hover { border-color: #f14444; }
+nav.navbar-bitworldnav li.divider { background: #ccc; }
+nav.navbar-bitworldnav button.navbar-toggle { background: #f14444; border-radius: 2px; }
+nav.navbar-bitworldnav button.navbar-toggle:hover { background: #999; }
+nav.navbar-bitworldnav button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-bitworldnav ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-bitworldnav ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-bitworldnav ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
+nav.navbar-bitworldnav span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-bitworldnav span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
